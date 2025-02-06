@@ -275,3 +275,30 @@ code[data-line-numbers-max-digits="2"] > [data-line]::before {
 code[data-line-numbers-max-digits="3"] > [data-line]::before {
   width: 3rem;
 }
+.constrained-width {
+  width: 100%;
+}
+
+@media screen and (max-width: 1920px) {
+  .constrained-width {
+    max-width: 1440px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .constrained-width {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (max-width: 1367px) {
+  .constrained-width {
+    max-width: 1080px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .constrained-width {
+    max-width: 100%;
+  }
+}
