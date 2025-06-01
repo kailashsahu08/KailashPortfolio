@@ -123,7 +123,7 @@ export default function Navbar() {
             </Tooltip>
           </DockIcon>
         <Separator orientation="vertical" className="h-full py-2" />
-        <DockIcon >
+        {/* <DockIcon >
             <Tooltip>
               <TooltipTrigger asChild>
                 <Link
@@ -142,7 +142,7 @@ export default function Navbar() {
                 <p>Chat</p>
               </TooltipContent>
             </Tooltip>
-          </DockIcon>
+          </DockIcon> */}
         <Separator orientation="vertical" className="h-full py-2" />
         <DockIcon>
           <Tooltip>

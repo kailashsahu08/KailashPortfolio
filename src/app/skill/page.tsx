@@ -14,7 +14,7 @@ const page = () => {
       <TransitionEffect/>
        <RetroGrid />
        <ResponsiveBox
-          classNames="dark:bg-[var(--dialogColor)] bg-[var(--dialogColor)] min-h-screen items-center justify-center dark:bg-dot-white/[0.15] bg-dot-white/[0.15]"
+          classNames="min-h-screen items-center justify-center"
           id={'skills'}
         >
           <ConstrainedBox classNames="p-4 py-16">

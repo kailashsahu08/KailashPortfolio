@@ -2,59 +2,49 @@ import { ISkillListItem, SkillLevel } from "@/types";
 
 const skills: ISkillListItem[] = [
   {
-    title: "Programming Languages",
+    title: "Languages",
     items: [
+      {
+        title: "Java",
+        level: SkillLevel.Expert,
+        icon: "/skills/java.png",
+      },
+      {
+        title: "PHP",
+        level: SkillLevel.Expert,
+        icon: "/skills/php.png",
+      },
       {
         title: "JavaScript",
         level: SkillLevel.Expert,
         icon: "/skills/javascript.svg",
       },
       {
-        title: "TypeScript",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/typescript.svg",
-      },
-      {
-        title: "Dart",
+        title: "SQL",
         level: SkillLevel.Expert,
-        icon: "/skills/dart.svg",
+        icon: "/skills/sql.png",
       },
     ],
   },
   {
-    title: "Frontend Development",
+    title: "Frameworks",
     items: [
       {
-        title: "Next.js",
-        level: SkillLevel.Expert,
-        icon: "/skills/nextjs.png",
-      },
-      {
-        title: "React.js",
+        title: "ReactJS",
         level: SkillLevel.Expert,
         icon: "/skills/react.svg",
       },
       {
-        title: "HTML",
+        title: "Spring Boot",
         level: SkillLevel.Expert,
-        icon: "/skills/html.svg",
+        icon: "/skills/spring-boot.svg",
       },
       {
-        title: "CSS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/css.svg",
-      },
-      {
-        title: "SASS",
-        level: SkillLevel.Intermediate,
-        icon: "/skills/sass.svg",
-      },
-      {
-        title: "Redux Toolkit",
+        title: "Laravel",
         level: SkillLevel.Expert,
-        icon: "/skills/redux.svg",
+        icon: "/skills/laravel.svg",
       },
-    ],
+    ]
   },
   {
     title: "Backend Development",
